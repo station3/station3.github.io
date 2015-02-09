@@ -1,27 +1,280 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="img/favicon.ico">
+<title>Station3</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome CSS -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<!-- Animate CSS -->
+<link href="css/animate.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+<!-- Skin color for this template -->
+<link href="css/skin-purple.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <link href="css/ie8.css" rel="stylesheet">
+    <![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+</head>
+<body data-spy="scroll" data-target=".navbar-fixed-top" onload="initialize()">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<li class="page-scroll"><h1><a href="#home-slider" class="navbar-brand">Station3</a></h1></li>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav pull-right">
+				<li class="page-scroll"><a href="#home-slider">Home</a></li>
+				<li class="page-scroll"><a href="#about">About</a></li>
+				<li class="page-scroll"><a href="#services">Service</a></li>
+				<li class="page-scroll"><a href="#contact-page">Contact</a></li>
+			</ul>
+		</div>
+		<!--/.nav-collapse -->
+	</div>
+</div>
 
-  <head>
-    <meta charset='utf-8'/>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Station3 : " />
+<!-- INTRO - HOMEPAGE
+================================================== -->
+<section id="home-slider" class="flexslider fullbg home-slider" style="background-image:url(img/section1-img.png);">
+<ul class="slides">
+	<li class="home-slide">
+	<div class="flex-caption transparent light-font center">
+		<p class="home-slide-content bounceInLeft animated" data-wow-delay="0.5s" data-wow-duration="4s">
+			 This is <span class="highlight">Hypnos</span> Theme
+		</p>
+		<p class="home-slide-content bounceIn animated" data-wow-delay="2s" data-wow-duration="4s">
+			 We <span class="highlight">love</span> it
+		</p>
+	</div>
+	</li>
+	<li class="home-slide">
+	<div class="flex-caption transparent light-font center">
+		<p class="home-slide-content swing animated" data-wow-delay="2s" data-wow-duration="4s">
+			 Infinite <span class="highlight">Skin Colors</span>
+		</p>
+		<p class="home-slide-content fadeInUp animated home-slide-content" data-wow-delay="2s" data-wow-duration="4s">
+			<span class="highlight">Lots</span> of animations
+		</p>
+	</div>
+	</li>
+	<li class="home-slide">
+	<div class="flex-caption transparent light-font center">
+		<p class="home-slide-content flipInY animated">
+			<span class="highlight">Easy</span> to Customize
+		</p>
+		<p class="home-slide-content slideInLeft animated">
+			 Clean & <span class="highlight">Modern</span>
+		</p>
+	</div>
+	</li>
+</ul>
+</section>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+<!-- ABOUT
+================================================== -->
+<section id="about" style="border-top:0px;" class="about">
+	<div class="container">
+		<div class="starter-template">
+			<h2>ABOUT US</h2>
+			<div class="smallsep">
+			</div>
+			<p class="lead about-main-title"> 
+				STATION3, Inc.
+			</p>
+			<p class="lead about-sub-title">
+				최고의 제품과 최고의 서비스가 좋은 회사를 만든다고 믿습니다.
+			</p>
+		</div>
+		<p class="max80 wow bounceIn animated about-description" data-wow-delay="0.1s">
+			신뢰할 수 있는 동료, 스스로 자랑스러워 할 수 있는 제품, 
+			그리고 고객을 이해하는 서비스를 제공하는  회사를 만들고 싶습니다. 
+			언제나 최고를 지향하는 철학으로, 윤리적이고 합리적인 운영 속에서 모두의 삶을, 세상을 
+			더 윤택하게 만들 수 있는 회사로 성장해 나가도록 하겠습니다.
+		</p>
+	</div>
+</section>
 
-    <title>Station3</title>
-  </head>
+<!-- SERVICES
+================================================== -->
+<section id="services" class="services graybg">
+	<div class="container">
+	<div class="starter-template" style="padding-bottom:0px;">
+		<h2>SERVICE</h2>
+		<div class="smallsep">
+		</div>
+		<p class="lead">
+			 <span style="font-weight:bold;">기존 부동산 서비스와 다른 새로운 방식</span><br />
+			 <span style="color:#159ae3">다방 무료계정</span> 으로 귀하의 비지니스를 성장 시키세요!
+		</p>
+	</div>
+	<div class="col-md-12">
+		<div class="boxservice wow flipInY animated" data-wow-delay="0.1s">
+			<div class="service-1"></div>
+			<h3>컴퓨터, 태블릿, 모바일</h3>
+			<p>
+			 하나의 계정으로 데이터 관리 및<br />
+			 매물의 홍보가 가능합니다
+			</p>
+		</div>
+		<div class="boxservice wow flipInY animated" data-wow-delay="0.2s">
+			<div class="service-2"></div>
+			<h3>모바일 부동산의 시대</h3>
+			<p>
+				PC를 벗어나, 모바일을 이용한<br />
+				스마트한 서비스를 제공합니다.
+			</p>
+		</div>
+		<div class="boxservice wow flipInY animated" data-wow-delay="0.3s">
+			<div class="service-3"></div>
+			<h3>실적관리, 홍보 효과 측정</h3>
+			<p>
+				효율적인 매물 관리와 결과 측정을<br />
+				통해 비지니스를 성장 시키세요
+			</p>
+		</div>
+	</div>
+	<br/><img src="img/dabang.png" class="img-responsive pxauto wow bounceIn animatedUp" style="margin-bottom:-60px;" data-wow-delay="0.2s">
+</div>
+</section>
 
-  <body>
-    <!-- HEADER -->
-    <div class="logo">
-      <img src="img/logo.png"/>
-    </div>
+<!-- CONTACT
+================================================== -->
+<section id="contact-page" class="contact">
+<div class="container">
+	<div class="starter-template">
+		<h2>Contact</h2>
+		<div class="smallsep">
+		</div>
+		<div class="row">
+			<div class="col-md-12 map-col-md-12">
+				<div id="map_canvas" class="map_canvas"></div> 
+			</div>
+			<div class="col-md-12">
+				<p class="lead">
+				 주소: 서울시 강남구 강남대로 112길 12 소리빌딩 2층<br />   
+				 전화: 02-554-9773<br />
+				 팩스: 02-554-9774<br />  
+				 이메일: hello@station3.co.kr
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
 
-    <div class="content">
-      Coming soon
-    </div>
+<!-- 계열사
+================================================== -->
+<section class="group">
+<div class="container">
+	<div>
+		<h2 class="blind">계열사</h2>
+		<div class="col-md-12">
+			<div class="boxservice wow flipInY animated family1" data-wow-delay="0.1s">
+				<h3 class="blind">벼룩시장</h3>
+				<a href="http://www.findall.co.kr" target="_blank"><img src="img/family1.gif"></a>
+			</div>
+			<div class="boxservice wow flipInY animated family2" data-wow-delay="0.2s">
+				<h3 class="blind">벼룩시장 구인구직</h3>
+				<a href="http://www.findall.co.kr/job/" target="_blank"><img src="img/family2.gif"></a>
+			</div>
+			<div class="boxservice rightb wow flipInY animated family3" data-wow-delay="0.3s">
+				<h3 class="blind">부동산써브</h3>
+				<a href="http://www.serve.co.kr" target="_blank"><img src="img/family3.gif"></a>
+			</div>
+			<div class="boxservice wow flipInY animated family4" data-wow-delay="0.1s">
+				<h3 class="blind">알바천국</h3>
+				<a href="http://www.alba.co.kr" target="_blank"><img src="img/family4.gif"></a>
+			</div>
+			<div class="boxservice wow flipInY animated family5" data-wow-delay="0.2s">
+				<h3 class="blind">모스버거 코리아</h3>
+				<a href="http://www.moskorea.kr" target="_blank"><img src="img/family5.gif"></a>
+			</div>
+			<div class="boxservice wow flipInY animated family6" data-wow-delay="0.2s">
+				<h3 class="blind">포포투</h3>
+				<a href="http://www.fourfourtwo.co.kr" target="_blank"><img src="img/family6.gif"></a>
+			</div>
+			<div class="boxservice rightb wow flipInY animated family-site" data-wow-delay="0.3s">
+				<div class="select">
+					<div class="select-text">
+						<input id="test" type="text" value="Family Site" readonly="readonly">
+						<button class="btn-select"></button>
+					</div>
+					<div class="list">
+						<ul>
+							<li><a href="http://www.findall.co.kr" target="_blank">벼룩시장</a></li>
+							<li><a href="http://www.findall.co.kr/job/" target="_blank">벼룩시장 구인구직</a></li>
+							<li><a href="http://www.serve.co.kr" target="_blank">부동산써브</a></li>
+							<li><a href="http://www.alba.co.kr" target="_blank">알바천국</a></li>
+							<li><a href="http://www.findjob.co.kr" target="_blank">파인드잡</a></li>
+							<li><a href="http://www.injain.co.kr" target="_blank">인자인케어 컴퍼니</a></li>
+							<li><a href="http://www.jobcracker.co.kr/main.jh" target="_blank">잡크래커</a></li>
+							<li><a href="http://www.peachvalley.co.kr" target="_blank">피치밸리</a></li>
+							<li><a href="http://www.fourfourtwo.co.kr" target="_blank">FOURFOURTWO</a></li>
+							<li><a href="http://www.tennis.co.kr" target="_blank">테니스코리아</a></li>
+							<li><a href="http://book.mediawill.com" target="_blank">도서출판 미디어윌</a></li>
+							<li><a href="http://www.dintaifung.co.kr" target="_blank">딘타이펑 코리아</a></li>
+							<li><a href="http://www.ipd.co.kr/main/index.php" target="_blank">아이피디</a></li>
+							<li><a href="http://www.moskorea.kr" target="_blank">모스버거 코리아</a></li>
+							<li><a href="http://www.gonzagaconvention.co.kr" target="_blank">캠퍼스컴</a></li>
+							<li><a href="http://www.dabangapp.com" target="_blank">다방</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
 
-    <!-- FOOTER  -->
+<!-- FOOTER
+================================================== -->
+<section id="footer" class="footer">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<ul class="social-icons">
+				<li class="wow bounceIn animated" data-wow-delay="0.1s"><a href="https://www.facebook.com/dabangapp" target="_blank"><i class="fa fa-facebook"></i><span class="blind">다방 페이스북으로 이동</span></a></li>
+				<li class="wow bounceIn animated" data-wow-delay="0.2s"><a href="https://twitter.com/dabangapp" target="_blank"><i class="fa fa-twitter"></i><span class="blind">다방 트위터로 이동</span></a></li>
+				<li class="wow bounceIn animated" data-wow-delay="0.3s"><a href="http://blog.naver.com/station3inc" target="_blank"><i class="fa fa-bold"></i><span class="blind">다방 블로그로 이동</span></a></li>
+			</ul>
+			<p class="copyright">
+				 Copyright © 2014 Station3, Inc. All rights reserved.
+			</p>
+		</div>
+	</div>
+</div>
+</section>
 
-  </body>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/nicescroll.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/common.js"></script>
+</body>
 </html>
+
