@@ -934,13 +934,13 @@ body {
 }
 
 .animated.flipInY {
-    -webkit-backface-visibility: visible !important;
+    -webkit-backface-visibility: visible;
     -webkit-animation-name: flipInY;
-    -moz-backface-visibility: visible !important;
+    -moz-backface-visibility: visible;
     -moz-animation-name: flipInY;
-    -o-backface-visibility: visible !important;
+    -o-backface-visibility: visible;
     -o-animation-name: flipInY;
-    backface-visibility: visible !important;
+    backface-visibility: visible;
     animation-name: flipInY;
 }
 
@@ -4135,4 +4135,17 @@ body {
     -moz-animation-duration: 0.25s;
     -o-animation-duration: 0.25s;
     animation-duration: 0.25s;
+}
+
+@media(max-width:320px) {
+    .animated.flipInY {
+        -webkit-backface-visibility: inherit;
+        -webkit-animation-name: inherit;
+        -moz-backface-visibility: inherit;
+        -moz-animation-name: inherit;
+        -o-backface-visibility: inherit;
+        -o-animation-name: inherit;
+        backface-visibility: inherit;
+        animation-name: inherit;
+    }
 }

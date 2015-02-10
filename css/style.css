@@ -1487,7 +1487,10 @@ html[xmlns] .slides {
 	}
 }
 
-
-
+@media(max-width:320px) {
+	.btn-select {
+		right: -6px;
+	}
+}
 
 
