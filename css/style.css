@@ -153,6 +153,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	background-size: 158px 138px;
 }
 
+.dabang-link-wrap {
+	margin-top: 30px;
+	padding: 0 8%;
+}
+
 .contact {
 	border-bottom: 1px solid #E3E3E3;
 }
@@ -1358,6 +1363,9 @@ html[xmlns] .slides {
 		text-align: center;
 		line-height: 26px;
 	}
+	.link-social {
+		padding-top: 8px;
+	}
 }
 
 @media(max-width:767px) {
@@ -1366,6 +1374,10 @@ html[xmlns] .slides {
 	}
 	section {
 		padding: 10px 0 25px;
+	}
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	.navbar-brand {
 		padding-top: 16px;
@@ -1405,7 +1417,13 @@ html[xmlns] .slides {
 		max-width: 100%;
 	}
 	.services img {
-		padding: 20px 0 65px;
+		padding: 0px 0 0px;
+	}
+	.dabang-link-wrap img {
+		padding: 15px 0 0px;
+	}
+	.dabang-link-wrap img {
+		padding-top: 18px;
 	}
 	.group {
 		padding-bottom: 10px;
@@ -1448,6 +1466,28 @@ html[xmlns] .slides {
 		width: 100%;
 		padding: 0;
 	}
+	.dabang-link-wrap {
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.link-facebook {
+		display: inline-block;
+		padding: 0 4px;
+	}
+	.link-twitter {
+		display: inline-block;
+		padding: 0 4px;
+	}
+	.link-blog {
+		display: inline-block;
+		padding: 0 4px;
+	}
 }
+
+
+
 
 

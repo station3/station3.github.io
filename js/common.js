@@ -37,6 +37,7 @@ function initialize() {
   var mapOptions = { 
     zoom: 17, 
     center: myLatlng, 
+    draggable: document.body.clientWidth < 600 ? false : true,
     scrollwheel : false,
     mapTypeId: google.maps.MapTypeId.ROADMAP 
   } 
