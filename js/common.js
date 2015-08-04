@@ -33,7 +33,7 @@ $(function() {
 });
 
 function initialize() { 
-  var myLatlng = new google.maps.LatLng(37.505310, 127.025467); 
+  var myLatlng = new google.maps.LatLng(37.500911, 127.030452); 
   var mapOptions = { 
     zoom: 17, 
     center: myLatlng, 
