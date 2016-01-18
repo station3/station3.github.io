@@ -171,6 +171,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	line-height: 22px;
 }
 
+.mailto {
+	color: #333;
+}
+
 .contact .row {
 	margin-left:0;
 	margin-right: 0;
