@@ -8,7 +8,7 @@ $(function() {
     event.preventDefault();
   });
   $("form[name='familysite']").on("submit", function(){
-    var url = $("select",this).val();  
+    var url = $("select",this).val();
     window.open(url);
     return false;
   });
@@ -17,7 +17,7 @@ $(function() {
    e.stopPropagation();
    if($(".list").css('display') == 'none'){
     $(this).children('.btn-select').addClass('on');
-    $(".list").fadeIn("fast");   
+    $(".list").fadeIn("fast");
   }else{
     $(".list").fadeOut("fast");
     $(this).children('.btn-select').removeClass('on');
@@ -32,38 +32,38 @@ $(function() {
   })
 });
 
-function initialize() { 
-  var myLatlng = new google.maps.LatLng(37.500911, 127.030452); 
-  var mapOptions = { 
-    zoom: 17, 
-    center: myLatlng, 
+function initialize() {
+  var myLatlng = new google.maps.LatLng(37.494259, 127.014563);
+  var mapOptions = {
+    zoom: 17,
+    center: myLatlng,
     draggable: document.body.clientWidth < 600 ? false : true,
     scrollwheel : false,
-    mapTypeId: google.maps.MapTypeId.ROADMAP 
-  } 
-  var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions); 
-  var marker = new google.maps.Marker({ 
-    position: myLatlng, 
-    map: map, 
-    title: "Station3" 
-  }); 
-  var contentString = '<p class="map-heading">Station3</p>';
-  var infowindow = new google.maps.InfoWindow( 
-  { 
-    content : contentString, 
-    maxWidth: 300 
-  } 
-  ); 
-  google.maps.event.addListener(marker, 'click', function() { 
-    infowindow.open(map, marker); 
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+  var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    title: "Station3"
   });
-} 
+  var contentString = '<p class="map-heading">Station3</p>';
+  var infowindow = new google.maps.InfoWindow(
+  {
+    content : contentString,
+    maxWidth: 300
+  }
+  );
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map, marker);
+  });
+}
 
 new WOW().init();
 
 jQuery(document).ready(function ($) {
 	$('#home-slider').flexslider({
-    pauseOnHover: false,    
+    pauseOnHover: false,
   	slideshow: true,                //Boolean: Animate slider automatically
   	slideshowSpeed: 3000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
   	animationSpeed: 600,
@@ -72,14 +72,14 @@ jQuery(document).ready(function ($) {
   	direction: "horizontal",
   	controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
   	useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
-  	touch: true, 
+  	touch: true,
   	directionNav: false
   });
 });
 
 jQuery(document).ready(function ($) {
 	$('.testimonial').flexslider({
-    pauseOnHover: true,    
+    pauseOnHover: true,
   	slideshow: false,                //Boolean: Animate slider automatically
   	slideshowSpeed: 5000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
   	animationSpeed: 1300,
@@ -88,7 +88,7 @@ jQuery(document).ready(function ($) {
   	direction: "horizontal",
   	controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
   	useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
-  	touch: true, 
+  	touch: true,
   	directionNav: false
   });
 });
