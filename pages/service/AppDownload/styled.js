@@ -3,29 +3,21 @@ import media from 'utils/media'
 
 export const Wrap = styled.div`
   width: 100%;
-
+  
   ${media.desk1600`
     display: flex;
-    padding: 0 55px;
-    padding-top: 88px;
-    padding-bottom: 36px;
+    padding: 88px 55px 36px;
   `}
   
   ${media.desk1400`
     display: flex;
-    padding: 0 50px;
-    padding-top: 80px;
-    padding-bottom: 29px;
+    padding: 80px 49.2px 29px 49px;
   `}
   
   ${media.desk1200`
     display: flex;
-    padding: 0 50px;
-    padding-top: 80px;
-    padding-bottom: 29px;
+    padding: 80px 49.2px 29px 49px;
   `}
-
-  padding-bottom: 20px;
 `
 
 export const AppImg = styled.div`
@@ -42,15 +34,24 @@ export const AppImg = styled.div`
   }
 
   ${media.desk1600`
-    width: 54.1667%;
+    width: 58.647%;
+    &::after {
+      padding-top: 79.8718%;
+    }
   `}
   
   ${media.desk1400`
-    width: 55.7143%;
+    width: 61.068%;
+    &::after {
+      padding-top: 79.81%;
+    }
   `}
   
   ${media.desk1200`
-    width: 55.7143%;
+    width: 61.068%;
+    &::after {
+      padding-top: 79.81%;
+    }
   `}
   
   ${media.tabletB`
@@ -83,6 +84,7 @@ export const TextWrap = styled.div`
   align-items: center;
 
   > div {
+    font-size: 0;
     > h1 {
       margin-bottom: 0.5em;
       color: #000;
@@ -138,13 +140,13 @@ export const TextWrap = styled.div`
   
   ${media.desk1400`
     flex: 1;
-    padding-left: 35px;
+    padding-left: 32.8px;
     padding-bottom: 52px;
 
     > div {
       > h1 {
         font-size: 32px;
-        letter-spacing: -1.9px;
+        letter-spacing: -2px;
       }
 
       > a {
@@ -162,12 +164,12 @@ export const TextWrap = styled.div`
   
   ${media.desk1200`
     flex: 1;
-    padding-left: 35px;
+    padding-left: 32.8px;
 
     > div {
       > h1 {
         font-size: 32px;
-        letter-spacing: -1.9px;
+        letter-spacing: -2px;
       }
 
       > a {

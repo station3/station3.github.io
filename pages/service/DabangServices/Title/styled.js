@@ -41,6 +41,7 @@ export const Pro = styled.div`
   `}
   
   ${media.mobileS`
+    background-size: contain;
     width: 95px;
     height: 21px;
   `}
@@ -123,7 +124,8 @@ export const Room = styled.div`
   `}
   
   ${media.mobileS`
-    width: calc(213px / 2);
+    background-size: contain;
+    width: calc(214px / 2);
     height: calc(45px / 2);
   `}
 `

@@ -54,10 +54,10 @@ export const Table = styled.div`
     background-image: url('/static/images/culture/banner/1200.jpg');
   `}
   ${media.tabletB`
-    background-image: url('/static/images/culture/banner/1600.jpg');
+    background-image: url('/static/images/culture/banner/1000.jpg');
   `}
   ${media.tablet`
-    background-image: url('/static/images/culture/banner/1600.jpg');
+    background-image: url('/static/images/culture/banner/640.jpg');
   `}
   ${media.mobile`
     background-image: url('/static/images/culture/banner/375.jpg');

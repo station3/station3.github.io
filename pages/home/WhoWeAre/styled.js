@@ -216,7 +216,7 @@ const Card = styled.div`
 
   ${media.desk1600`
     width: calc(50% - 15px);
-    height: 330px;
+    min-height: 330px;
     padding: 0 38px;
     padding-top: 38px;
 
@@ -237,7 +237,7 @@ const Card = styled.div`
   
   ${media.desk1400`
     width: calc(50% - 15px);
-    height: 297px;
+    min-height: 297px;
     padding: 0 34px;
     padding-top: 34px;
 
@@ -258,7 +258,7 @@ const Card = styled.div`
   
   ${media.desk1200`
     width: calc(50% - 14px);
-    height: 265px;
+    min-height: 265px;
     padding: 0 30px;
     padding-top: 30px;
 
@@ -279,7 +279,7 @@ const Card = styled.div`
 
   ${media.tabletB`
     width: calc(50% - 10px);
-    height: 400px;
+    min-height: 400px;
     padding-top: 40px;
     padding-left: 40px;
 
@@ -300,7 +300,7 @@ const Card = styled.div`
   
   ${media.tablet`
     width: calc(50% - 10px);
-    height: 400px;
+    min-height: 400px;
     padding-top: 30px;
     padding-left: 30px;
 
@@ -321,7 +321,7 @@ const Card = styled.div`
   
   ${media.mobile`
     width: calc(50% - 5px);
-    height: 205px;
+    min-height: 205px;
     padding: 0 20px;
     padding-top: 25px;
 
@@ -342,7 +342,7 @@ const Card = styled.div`
   
   ${media.mobileS`
     width: calc(50% - 5px);
-    height: 205px;
+    min-height: 205px;
     padding: 0 15px;
     padding-top: 20px;
 

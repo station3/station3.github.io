@@ -126,21 +126,23 @@ export const Table = styled.div`
   `}
   
   ${media.desk1400`
-    background-image: url('/static/images/service/banner/1600.svg');
+    background-image: url('/static/images/service/banner/1200.svg');
     padding-left: 15.7143%;
   `}
   
   ${media.desk1200`
-    background-image: url('/static/images/service/banner/1600.svg');
+    background-image: url('/static/images/service/banner/1200.svg');
     padding-left: 15.7143%;
   `}
   
   ${media.tabletB`
+    background-image: url('/static/images/service/banner/1000.svg');
     padding-top: 32.85%;
     padding-left: 60px;
   `}
   
   ${media.tablet`
+    background-image: url('/static/images/service/banner/640.svg');
     padding-top: 35.0291%;
     padding-left: 40px;
   `}

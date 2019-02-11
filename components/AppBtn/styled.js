@@ -3,6 +3,7 @@ import media from 'utils/media'
 
 export const BtnWrap = styled.div`
   display: flex;
+  font-size: 0;
   ${({type}) => !!type && `justify-content: center;`}
 `
 
@@ -21,7 +22,7 @@ const Btn = styled.a`
   
   ${media.desk1400`
     width: 103px;
-    height: 33.6px;
+    height: 34px;
 
     & + a {
       margin-left: 10px;
@@ -30,7 +31,7 @@ const Btn = styled.a`
   
   ${media.desk1200`
     width: 103px;
-    height: 33.6px;
+    height: 34px;
     
     & + a {
       margin-left: 10px;
