@@ -111,7 +111,8 @@ export const Label = styled.h1`
 `
 
 export const Table = styled.div`
-  background: url('/static/images/service/banner/bg.svg') right center no-repeat;
+  background-position: right center;
+  background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -120,14 +121,17 @@ export const Table = styled.div`
   bottom: 0;
 
   ${media.desk1600`
+    background-image: url('/static/images/service/banner/1600.svg');
     padding-left: 21.25%;
   `}
   
   ${media.desk1400`
+    background-image: url('/static/images/service/banner/1600.svg');
     padding-left: 15.7143%;
   `}
   
   ${media.desk1200`
+    background-image: url('/static/images/service/banner/1600.svg');
     padding-left: 15.7143%;
   `}
   
@@ -142,11 +146,13 @@ export const Table = styled.div`
   `}
   
   ${media.mobile`
+    background-image: url('/static/images/service/banner/375.svg');
     padding-top: 54.6269%;
     padding-left: 30px;
   `}
   
   ${media.mobileS`
+    background-image: url('/static/images/service/banner/375.svg');
     padding-top: 56.0345%;
     padding-left: 20px;
   `}

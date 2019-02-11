@@ -46,40 +46,36 @@ export const Img = styled.div`
   top: 0;
   left: 0;
   z-index: 1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   ${media.desk1600`
-    background: url('/static/images/home/banner/1600.jpg') right center no-repeat;
-    background-size: cover;
+    background-image: url('/static/images/home/banner/1600.jpg');
   `}
 
   ${media.desk1400`
-    background: url('/static/images/home/banner/1400.jpg') right center no-repeat;
-    background-size: cover;
+    background-image: url('/static/images/home/banner/1400.jpg');
   `}
 
   ${media.desk1200`
-    background: url('/static/images/home/banner/1200.jpg') right center no-repeat;
-    background-size: cover;
+    background-image: url('/static/images/home/banner/1200.jpg');
   `}
 
   ${media.tabletB`
-    background: url('/static/images/home/banner/1000.jpg') right center no-repeat;
-    background-size: cover;
+    background-image: url('/static/images/home/banner/1000.jpg');
   `}
 
   ${media.tablet`
-    background: url('/static/images/home/banner/640.jpg') right center no-repeat;
-    background-size: cover;
+    background-image: url('/static/images/home/banner/640.jpg');
   `}
 
   ${media.mobile`
-    background: url('/static/images/home/banner/375.jpg') right center no-repeat;
-    background-size: cover;
+    background-image: url('/static/images/home/banner/375.jpg');
   `}
 
   ${media.mobileS`
-    background: url('/static/images/home/banner/320.jpg') right center no-repeat;
-    background-size: cover;
+    background-image: url('/static/images/home/banner/320.jpg');
   `}
 `
 
