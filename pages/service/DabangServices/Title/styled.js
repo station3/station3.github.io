@@ -302,29 +302,29 @@ export const OwnerImage = styled.img`
     margin: 47.2px auto 0;
   `}
   ${media.tabletB`
-    width: 572.9px;
+    width: 580px;
     height: 345px;
     margin: 60px auto 0;
   `}
   ${media.tablet`
     width: 100%;
     height: 100%;
-    max-width: 513.7px;
+    max-width: 520px;
     max-height: 310px;
     margin: 60px auto 0;
   `}
   ${media.mobile`
     width: 100%;
     height: 100%;
-    max-width: 302px;
-    max-height: 148.75px;
+    max-width: 250px;
+    max-height: 149px;
     margin: 30px auto 0;
   `}
   ${media.mobileS`
     width: 100%;
     height: 100%;
-    max-width: 222.25px;
-    max-height: 134.05px;
+    max-width: 225px;
+    max-height: 134px;
     margin: 30.35px auto 0;
   `}
 `

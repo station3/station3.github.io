@@ -37,19 +37,34 @@ export const Wrap = styled.div`
 export const Table = styled.div`
   position: absolute;
   width: 100%;
-  background: url('/static/images/culture/banner/banner.png') right center no-repeat;
+  background-position: right center;
+  background-repeat: no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  ${media.desk1600``}
-  ${media.desk1400``}
-  ${media.desk1200``}
-  ${media.tabletB``}
-  ${media.tablet``}
-  ${media.mobile``}
-  ${media.mobileS``}
+  ${media.desk1600`
+    background-image: url('/static/images/culture/banner/1600.jpg');
+  `}
+  ${media.desk1400`
+    background-image: url('/static/images/culture/banner/1200.jpg');
+  `}
+  ${media.desk1200`
+    background-image: url('/static/images/culture/banner/1200.jpg');
+  `}
+  ${media.tabletB`
+    background-image: url('/static/images/culture/banner/1600.jpg');
+  `}
+  ${media.tablet`
+    background-image: url('/static/images/culture/banner/1600.jpg');
+  `}
+  ${media.mobile`
+    background-image: url('/static/images/culture/banner/375.jpg');
+  `}
+  ${media.mobileS`
+    background-image: url('/static/images/culture/banner/320.jpg');
+  `}
 `
 
 export const TextWrap = styled.div`

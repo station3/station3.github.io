@@ -55,7 +55,7 @@ export const CarouselList = styled.div`
   }
   ${media.desk1600`
     p {
-      height: 182px;
+      min-height: 182px;
       margin-bottom: 20px;
       font-size: 30px;
       line-height: 1.5;
@@ -67,7 +67,7 @@ export const CarouselList = styled.div`
   `}
   ${media.desk1400`
     p {
-      height: 163px;
+      min-height: 163px;
       margin-bottom: 20px;
       font-size: 26px;
       line-height: 1.54;
@@ -79,7 +79,7 @@ export const CarouselList = styled.div`
   `}
   ${media.desk1200`
     p {
-      height: 163px;
+      min-height: 163px;
       margin-bottom: 20px;
       font-size: 26px;
       line-height: 1.54;
@@ -91,7 +91,7 @@ export const CarouselList = styled.div`
   `}
   ${media.tabletB`
     p {
-      height: 203px;
+      min-height: 203px;
       margin-bottom: 40px;
       font-size: 34px;
       line-height: 1.47;
@@ -103,7 +103,7 @@ export const CarouselList = styled.div`
   `}
   ${media.tablet`
     p {
-      height: 203px;
+      min-height: 203px;
       margin-bottom: 40px;
       font-size: 34px;
       line-height: 1.47;
@@ -115,7 +115,7 @@ export const CarouselList = styled.div`
   `}
   ${media.mobile`
     p {
-      height: 101.5px;
+      min-height: 101.5px;
       margin-bottom: 20px;
       font-size: 17px;
       line-height: 1.5;
@@ -127,7 +127,7 @@ export const CarouselList = styled.div`
   `}
   ${media.mobileS`
     p {
-      height: 91.5px;
+      min-height: 91.5px;
       margin-bottom: 20px;
       font-size: 15px;
       line-height: 1.5;
