@@ -28,7 +28,7 @@ const TitleComponent = ({
       break;
       
     case 'room':
-      temp.url = 'https://landlord.dabangapp.com/'
+      temp.url = 'https://owner.dabangapp.com/'
       temp.desc = '스마트한 임대 관리 서비스! 다방 방주인'
       temp.appStore = 'id1438069281'
       temp.googlePlay = 'dabanghouseowner'

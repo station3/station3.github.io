@@ -3,8 +3,8 @@ import { AppleBtn, BtnWrap, GoogleBtn } from './styled'
 
 class AppBtn extends Component {
   static defaultProps = {
-    appStore: 'dabang',
-    googlePlay: 'id814840066',
+    googlePlay: 'dabang',
+    appStore: 'id814840066',
   }
   
   render() {

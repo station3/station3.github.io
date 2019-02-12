@@ -15,14 +15,17 @@ export const INSTAGRAM = 'https://www.instagram.com/dabang_app/'
 
 export const RECRUITS = [
   {
+    id: 1,
     href: '#',
     label: '링크드인',
   },
   {
+    id: 2,
     href: '#',
     label: '잡코리아',
   },
   {
+    id: 3,
     href: '#',
     label: '원티드',
   },

@@ -28,8 +28,9 @@ const Recruiting = ({
         {isOpen && <RecruitSite>
           {
             RECRUITS.map((rec) => (
-              <li key={rec.href}>
-                <a href={rec.href} target="_blank" rel="noopener noreferrer">{rec.label}</a>
+              <li key={rec.id}>
+                {/*<a href={rec.href} target="_blank" rel="noopener noreferrer">{rec.label}</a>*/}
+                <a onClick={() => alert('서비스 준비중 입니다.')} style={{cursor: 'pointer'}}>{rec.label}</a>
               </li>
             ))
           }

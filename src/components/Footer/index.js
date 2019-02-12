@@ -95,7 +95,7 @@ const FooterComponent = ({
                     <a href="https://pro.dabangapp.com" target="_blank" rel="noopener noreferrer">다방프로</a>
                   </li>
                   <li>
-                    <a href="https://landlord.dabangapp.com" target="_blank" rel="noopener noreferrer">다방집주인</a>
+                    <a href="https://owner.dabangapp.com" target="_blank" rel="noopener noreferrer">다방방주인</a>
                   </li>
                   <li>
                     <a href="http://mediawill.com" target="_blank" rel="noopener noreferrer">미디어윌</a>

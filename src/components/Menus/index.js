@@ -74,7 +74,8 @@ const MenusComponent = () => {
         </Link>
         
         <Recruit>
-          <Link to="/culture#recruit">RECRUIT</Link>
+          {/*<Link to="/culture#recruit">RECRUIT</Link>*/}
+          <a style={{cursor: 'pointer'}} onClick={e => alert('서비스 준비중 입니다.')}>RECRUIT</a>
         </Recruit>
       </Wrap>
     </Nav>
