@@ -22,7 +22,7 @@ const BannerComponent = () => {
             </Fade>
             <Fade bottom cascade distance="60px">
               <div>
-                <p>다방, 다방프로, 다방집주인, 다방페이 등</p>
+                <p>다방, 다방프로, 다방 방주인, 다방페이 등</p>
                 <p>다방은 주거공간을 넘어 모두가 ‘더 나은 삶의 방식’을</p>
                 <p>만들어 나갈 수 있는 방향을 제시하고 있습니다.</p>
               </div>
