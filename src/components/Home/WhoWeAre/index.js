@@ -26,7 +26,7 @@ const WhoWeAreComponent = () => {
           <Vision>
             <h1>vision</h1>
             <p>
-              고객에게  투명하고, 편리한, 합리적인 경험을 제공하는 통합 주거 플랫폼으로 확장
+              고객에게 투명하고, 편리한, 합리적인 경험을 제공하는 통합 주거 플랫폼으로 확장
             </p>
           </Vision>
         </CardWrap>

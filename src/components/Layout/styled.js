@@ -109,10 +109,12 @@ export const Body = styled.div`
   `}
   
   ${media.mobile`
+    max-width: 100%;
     padding-top: 50px;
   `}
 
   ${media.mobileS`
+    max-width: 100%;
     padding-top: 50px;
   `}
 `

@@ -8,7 +8,7 @@ const PhotoComponent = () => {
   return (
     <Wrap>
       <PhotoList>
-        <Fade right cascade distance="60px">
+        <Fade top cascade distance="60px">
           <div>
             {
               PHOTOS.map((photo) => (
