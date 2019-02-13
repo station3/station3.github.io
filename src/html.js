@@ -11,7 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=aa3587eb80c3c32cc2ae74d833bf444b" type="text/javascript" />
+        <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ab1ec7b70a6b73ab5cedfa536d257272" type="text/javascript" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
