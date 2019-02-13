@@ -16,6 +16,7 @@ export const Nav = styled.nav`
   top: 0;
   left: 0;
   right: 0;
+  background-color: #fff;
   transition: background-color 300ms;
   z-index: 10;
 

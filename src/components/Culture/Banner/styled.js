@@ -93,6 +93,7 @@ export const Text = styled.h1`
   width: 100%;
   font-weight: bold;
   color: #000;
+  word-break: keep-all;
   ${media.desk1600`
     max-width: 773px;
     font-size: 50px;
