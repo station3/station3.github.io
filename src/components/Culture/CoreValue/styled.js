@@ -124,7 +124,8 @@ export const Circle = styled.div`
     }
   `}
   ${media.desk1200`
-    width: calc((100% + 85px) / 3);
+    // width: calc((100% + 85px) / 3);
+    width: calc(33.3333% + 28.4px);
     max-width: 311.4px;
     max-height: 311.4px;
     &:nth-child(n + 2) {
@@ -132,7 +133,8 @@ export const Circle = styled.div`
     }
   `}
   ${media.tabletB`
-    width: calc((100% + 92px) / 3);
+    // width: calc((100% + 92px) / 3);
+    width: calc(33.3333% + 30.5px);
     max-width: 332px;
     max-height: 332px;
     &:nth-child(n + 2) {
@@ -140,7 +142,8 @@ export const Circle = styled.div`
     }
   `}
   ${media.tablet`
-    width: calc((100% + 69.8px) / 3);
+    // width: calc((100% + 69.8px) / 3);
+    width: calc(33.3333% + 23.1px);
     max-width: 252.6px;
     max-height: 252.6px;
     &:nth-child(n + 2) {
@@ -148,13 +151,15 @@ export const Circle = styled.div`
     }
   `}
   ${media.mobile`
-    width: calc((100% + 34px) / 3);
+    // width: calc((100% + 34px) / 3);
+    width: calc(33.3333% + 11.2px);
     &:nth-child(n + 2) {
       margin-left: -17px;
     }
   `}
   ${media.mobileS`
-    width: calc((100% + 29.4px) / 3);
+    // width: calc((100% + 29.4px) / 3);
+    width: calc(33.3333% + 9.7px);
     &:nth-child(n + 2) {
       margin-left: -14.7px;
     }
