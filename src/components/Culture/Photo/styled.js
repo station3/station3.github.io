@@ -32,19 +32,22 @@ export const Photo = styled.div`
     width: 100%;
   }
   ${media.desk1600`
-    width: calc((99.9% - 30px) / 6);
+    // width: calc((99.9% - 30px) / 6);
+    width: calc(16.6666% - 5px);
     &:nth-child(n + 2) {
       margin-left: 6px;
     }
   `}
   ${media.desk1200`
-    width: calc((99.9% - 15px) / 6);
+    // width: calc((99.9% - 15px) / 6);
+    width: calc(16.6666% - 2.5px);
     &:nth-child(n + 2) {
       margin-left: 3px;
     }
   `}
   ${media.tabletB`
-    width: calc((99.9% - 22px) / 3);
+    // width: calc((99.9% - 22px) / 3);
+    width: calc(33.3333% - 7.4px);
     &:nth-child(3n + 2) {
       margin-left: 11px;
       margin-right: 11px;
@@ -54,7 +57,8 @@ export const Photo = styled.div`
     }
   `}
   ${media.tablet`
-    width: calc((99.9% - 16px) / 3);
+    // width: calc((99.9% - 16px) / 3);
+    width: calc(33.3333% - 5.4px);
     &:nth-child(3n + 2) {
       margin-left: 8px;
       margin-right: 8px;
@@ -64,7 +68,8 @@ export const Photo = styled.div`
     }
   `}
   ${media.mobile`
-    width: calc((99.9% - 8px) / 3);
+    // width: calc((99.9% - 8px) / 3);
+    width: calc(33.3333% - 2.7px);
     &:nth-child(3n + 2) {
       margin-left: 4px;
       margin-right: 4px;
@@ -74,7 +79,8 @@ export const Photo = styled.div`
     }
   `}
   ${media.mobileS`
-    width: calc((99.9% - 6px) / 3);
+    // width: calc((99.9% - 6px) / 3);
+    width: calc(33.3333% - 2px);
     &:nth-child(3n + 2) {
       margin-left: 3px;
       margin-right: 3px;
