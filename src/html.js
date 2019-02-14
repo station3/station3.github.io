@@ -1,6 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+const JsonLd = ({ data }) =>
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+  />;
+
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
@@ -11,21 +17,20 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css' />
         <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ab1ec7b70a6b73ab5cedfa536d257272" type="text/javascript" />
         {props.headComponents}
-        <script type="application/ld+json">
-          {{
-           "@context": "http://schema.org",
-           "@type": "Organization",
-           "name": "스테이션3",
-           "url": "http://www.station3.co.kr",
-           "sameAs": [
-             "https://post.naver.com/station3inc",
-             "https://www.facebook.com/dabangapp",
-             "https://www.instagram.com/dabang_app/"
-           ]
-          }}
-        </script>
+        <JsonLd data={{
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "스테이션3",
+          "url": "http://www.station3.co.kr",
+          "sameAs": [
+            "https://post.naver.com/station3inc",
+            "https://www.facebook.com/dabangapp",
+            "https://www.instagram.com/dabang_app/"
+          ]
+        }}/>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

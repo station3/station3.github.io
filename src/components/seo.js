@@ -47,8 +47,6 @@ function SEO({ description, lang, keywords, title }) {
             <meta name="twitter:image" content={defaultImage} />
             <meta name="twitter:domain" content={defaultTitle} />
             <meta name="twitter:creator" content={author} />
-
-            <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css' />
           </Helmet>
         )
       }}
