@@ -13,6 +13,19 @@ export default function HTML(props) {
         />
         <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ab1ec7b70a6b73ab5cedfa536d257272" type="text/javascript" />
         {props.headComponents}
+        <script type="application/ld+json">
+          {{
+           "@context": "http://schema.org",
+           "@type": "Organization",
+           "name": "스테이션3",
+           "url": "http://www.station3.co.kr",
+           "sameAs": [
+             "https://post.naver.com/station3inc",
+             "https://www.facebook.com/dabangapp",
+             "https://www.instagram.com/dabang_app/"
+           ]
+          }}
+        </script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
