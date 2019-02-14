@@ -24,7 +24,7 @@ export default function HTML(props) {
           "@context": "http://schema.org",
           "@type": "Organization",
           "name": "스테이션3",
-          "url": "http://www.station3.co.kr",
+          "url": "https://www.station3.co.kr",
           "sameAs": [
             "https://post.naver.com/station3inc",
             "https://www.facebook.com/dabangapp",
