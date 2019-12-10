@@ -76,10 +76,12 @@ export const Text = styled.div`
   display: inline-block;
   vertical-align: middle;
   text-align: left;
+
   p {
     font-weight: bold;
   }
-  label {
+
+  b {
     font-weight: bold;
   }
   ${media.desk1600`
@@ -88,7 +90,7 @@ export const Text = styled.div`
       font-size: 20px;
       line-height: 1.75;
     }
-    label, span {
+    b, span {
       font-size: 16px;
       line-height: 2.19;
     }
@@ -99,7 +101,7 @@ export const Text = styled.div`
       font-size: 20px;
       line-height: 1.75;
     }
-    label, span {
+    b, span {
       font-size: 16px;
       line-height: 2.19;
     }
@@ -112,7 +114,7 @@ export const Text = styled.div`
       font-size: 28px;
       line-height: 1.79;
     }
-    label, span {
+    b, span {
       font-size: 24px;
       line-height: 2.08;
     }
@@ -125,7 +127,7 @@ export const Text = styled.div`
       font-size: 28px;
       line-height: 1.79;
     }
-    label, span {
+    b, span {
       font-size: 24px;
       line-height: 2.08;
     }
@@ -138,7 +140,7 @@ export const Text = styled.div`
       font-size: 14px;
       line-height: 1.5;
     }
-    label, span {
+    b, span {
       font-size: 12px;
       line-height: 2.08;
     }
@@ -151,7 +153,7 @@ export const Text = styled.div`
       font-size: 14px;
       line-height: 1.5;
     }
-    label, span {
+    b, span {
       font-size: 12px;
       line-height: 2.08;
     }

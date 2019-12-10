@@ -46,9 +46,11 @@ export const Select = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  background: #000;
   color: #fff;
   text-align: left;
+  background: #000;
+  outline: none;
+
   ${media.desk1600`
     padding: 0 30px;
   `}
@@ -71,6 +73,7 @@ export const Select = styled.div`
 
 export const SelectBtn = styled.div`
   font-weight: bold;
+  
   > svg {
     position: absolute;
   }
@@ -146,10 +149,15 @@ export const RecruitSite = styled.ul`
   right: 0;
   width: 100%;
   background: #000;
+
   > li {
     border-bottom: 1px solid #444;
-    > a {
-      display: block;
+
+    > a,
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-weight: 700;
       color: #fff;
       letter-spacing: normal;
@@ -163,7 +171,8 @@ export const RecruitSite = styled.ul`
       height: 60px;
       padding: 0 30px;
 
-      > a {
+      > a,
+      > div {
         font-size: 15px;
         line-height: 60px;
       }
@@ -177,7 +186,8 @@ export const RecruitSite = styled.ul`
       height: 48.6px;
       padding: 0 24.9px 0 24px;
       
-      > a {
+      > a,
+      > div {
         font-size: 12px;
         line-height: 48.6px;
       }
@@ -191,7 +201,8 @@ export const RecruitSite = styled.ul`
       height: 80px;
       padding: 0 40px;
 
-      > a {
+      > a,
+      > div {
         font-size: 24px;
         line-height: 80px;
       }
@@ -205,7 +216,8 @@ export const RecruitSite = styled.ul`
       height: 80px;
       padding: 0 40px;
 
-      > a {
+      > a,
+      > div {
         font-size: 24px;
         line-height: 80px;
       }
@@ -217,7 +229,8 @@ export const RecruitSite = styled.ul`
     > li {
       height: 40px;
       padding: 0 20px;
-      > a {
+      > a,
+      > div {
         font-size: 12px;
         line-height: 40px;
       }
@@ -229,7 +242,8 @@ export const RecruitSite = styled.ul`
     > li {
       height: 38px;
       padding: 0 19px;
-      > a {
+      > a,
+      > div {
         font-size: 12px;
         line-height: 38px;
       }

@@ -200,8 +200,10 @@ export const Recruit = styled.div`
   float: right;
   position: relative;
 
-  > a {
+  > a,
+  > p {
     ${Link}
+    cursor: pointer;
   }
 
   &::after {

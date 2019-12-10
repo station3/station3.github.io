@@ -13,14 +13,12 @@ export default function HTML(props) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="naver-site-verification" content="7f5716fff702bbf96e31abc212f7b0a8a727a8ff"/>
         <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css' />
         <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ab1ec7b70a6b73ab5cedfa536d257272" type="text/javascript" />
-        <meta name="naver-site-verification" content="7f5716fff702bbf96e31abc212f7b0a8a727a8ff"/>
         {props.headComponents}
+        
         <JsonLd data={{
           "@context": "http://schema.org",
           "@type": "Organization",

@@ -180,14 +180,14 @@ export const CircleContent = styled.div`
   left: 0;
   color: #fff;
   text-align: center;
-  label {
+  h1 {
     font-weight: bold;
     z-index: 1000;
   }
   
   ${media.desk1600`
     top: 63px;
-    label {
+    h1 {
       font-size: 30px;
       line-height: 2;
     }
@@ -200,7 +200,7 @@ export const CircleContent = styled.div`
   `}
   ${media.desk1200`
     top: 57px;
-    label {
+    h1 {
       font-size: 26px;
       line-height: 2.08;
     }
@@ -215,7 +215,7 @@ export const CircleContent = styled.div`
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
-    label {
+    h1 {
       position: relative;
       font-size: 30px;
       line-height: 2;
@@ -229,7 +229,7 @@ export const CircleContent = styled.div`
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
-    label {
+    h1 {
       font-size: 26px;
       line-height: 2.31;
     }
@@ -241,7 +241,7 @@ export const CircleContent = styled.div`
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
-    label {
+    h1 {
       font-size: 13px;
       line-height: 1.15;
     }
@@ -253,7 +253,7 @@ export const CircleContent = styled.div`
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
-    label {
+    h1 {
       font-size: 11px;
       line-height: 1.15;
     }

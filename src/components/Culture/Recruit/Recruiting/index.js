@@ -11,7 +11,7 @@ const Recruiting = ({
   return (
     <Wrap>
       <Select tabIndex="0" ref={wrapRef}>
-        <SelectBtn onClick={selectHandler}>
+        <SelectBtn role="button" onClick={selectHandler}>
           <span>진행중인 채용공고</span>
           <svg width="13" height="7" viewBox="0 0 13 7">
             <path
@@ -25,15 +25,13 @@ const Recruiting = ({
           </svg>
         </SelectBtn>
         
-        {isOpen && <RecruitSite>
-          {
-            RECRUITS.map((rec) => (
-              <li key={rec.id}>
-                {/*<a href={rec.href} target="_blank" rel="noopener noreferrer">{rec.label}</a>*/}
-                <a onClick={() => alert('서비스 준비중 입니다.')} style={{cursor: 'pointer'}}>{rec.label}</a>
-              </li>
-            ))
-          }
+        {isOpen && <RecruitSite onClick={() => alert('서비스 준비중 입니다.')} role="button">
+          {RECRUITS.map((rec) => (
+            <li key={rec.id}>
+              {/*<a href={rec.href} target="_blank" rel="noopener noreferrer">{rec.label}</a>*/}
+              <div style={{cursor: 'pointer'}}>{rec.label}</div>
+            </li>
+          ))}
         </RecruitSite>}
       </Select>
     </Wrap>

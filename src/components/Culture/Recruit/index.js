@@ -11,7 +11,7 @@ const RecruitComponent = () => {
           스테이션3에서 일하고 싶으신가요?<br />
           이곳에서 진행중인 채용공고를 확인하세요.
         </p>
-        <label>인재풀 등록</label> <span>hr@station3.co.kr</span>
+        <b>인재풀 등록</b> <span>hr@station3.co.kr</span>
       </Text>
       <Recruiting />
     </Wrap>

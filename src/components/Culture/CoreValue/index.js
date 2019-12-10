@@ -14,7 +14,7 @@ const CoreValueComponent = () => {
               <CircleContent>
                 <Fade>
                   <div>
-                    <label>주도와 실행</label>
+                    <h1>주도와 실행</h1>
                     <p>
                       주인의식을 바탕으로<br/>
                       명확한 의견과 논리를 가지고<br/>
@@ -32,7 +32,7 @@ const CoreValueComponent = () => {
               <CircleContent>
                 <Fade delay={250}>
                   <div>
-                    <label>투명과 신뢰</label>
+                    <h1>투명과 신뢰</h1>
                     <p>
                       고객에겐 투명하고,<br />
                       스스로에겐 정직한 신뢰를<br />
@@ -49,7 +49,7 @@ const CoreValueComponent = () => {
               <CircleContent>
                 <Fade delay={500}>
                   <div>
-                    <label>소통과 유연</label>
+                    <h1>소통과 유연</h1>
                     <p>
                       나이, 직급을 떠나 상호 존중하며,<br />
                       충분한 휴식도 업무의 일부라는<br />

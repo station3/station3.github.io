@@ -11,21 +11,21 @@ const Controller = Wrapper => class extends Component {
   }
   
   initMap = () => {
-    const { daum } = window;
+    const { kakao } = window;
     const mapContainer = document.getElementById('map')
-    const mapLatLng = new daum.maps.LatLng(LatLng.lat, LatLng.lng)
+    const mapLatLng = new kakao.maps.LatLng(LatLng.lat, LatLng.lng)
     const mapOption = {
       center: mapLatLng,
       level: 2,
     }
-    const marker = new daum.maps.Marker({
+    const marker = new kakao.maps.Marker({
       position: mapLatLng,
     })
-    const control = new daum.maps.ZoomControl()
+    const control = new kakao.maps.ZoomControl()
     
-    const map = new daum.maps.Map(mapContainer, mapOption)
+    const map = new kakao.maps.Map(mapContainer, mapOption)
     marker.setMap(map)
-    map.addControl(control, daum.maps.ControlPosition.RIGHT)
+    map.addControl(control, kakao.maps.ControlPosition.RIGHT)
     map.setZoomable(false)
   }
   
