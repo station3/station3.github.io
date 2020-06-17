@@ -8,6 +8,7 @@ import { Nav, Wrap, Ul, Logo, Recruit } from './styled'
 const links = [
   { href: '/service', label: '서비스' },
   { href: '/culture', label: '기업문화' },
+  { href: '/help-line', label: '헬프라인' },
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link

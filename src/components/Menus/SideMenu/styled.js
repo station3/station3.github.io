@@ -126,17 +126,10 @@ export const Wrap = styled.div`
 
 export const Menus = styled.div`
   width: 100%;
-  height: 45%;
-  padding: 30px 140px;
   position: relative;
 
   > ul {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-
     > li {
-
       > a {
         color: #fff;
         font-size: 50px;
@@ -149,8 +142,35 @@ export const Menus = styled.div`
     }
   }
 
+  ${media.desk1600`
+    height: 45%;
+    padding: 30px 140px;
+
+    > ul {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  `}
+  ${media.desk1200`
+    height: 45%;
+    padding: 30px 140px;
+    
+    > ul {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  `}
+  ${media.tabletB`
+    padding: 110px 0 130px 140px;
+  `}
+  ${media.tablet`
+    padding: 110px 0 130px 140px;
+  `}
+
   ${media.mobile`
-    padding: 30px 55px;
+    padding: 94px 0 65px 55px;
 
     > ul {
       > li {
@@ -165,7 +185,7 @@ export const Menus = styled.div`
   `}
   
   ${media.mobileS`
-    padding: 20px 35px;
+    padding: 94px 0 65px 55px;
 
     > ul {
       > li {
