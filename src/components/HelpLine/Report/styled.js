@@ -324,9 +324,7 @@ export const ReportWrap = styled.div`
     word-break: keep-all;
   }
 
-  & + & {
-    margin-top: 60px;
-  }
+  margin-top: 60px;
 
   ${media.desk1600`
     > h2 {
@@ -396,9 +394,7 @@ export const ReportWrap = styled.div`
       line-height: calc(47px / 2);
     }
 
-    & + & {
-      margin-top: calc(40px / 2);
-    }
+    margin-top: calc(40px / 2);
   `}
   ${media.mobileS`
     > h2 {
@@ -412,9 +408,7 @@ export const ReportWrap = styled.div`
       line-height: calc(47px / 2);
     }
 
-    & + & {
-      margin-top: ${({ hasChild }) => hasChild ? 'calc(40px / 2)' : 'calc(40px / 2)'};
-    }
+    margin-top: calc(40px / 2);
   `}
 `;
 
@@ -447,7 +441,7 @@ export const ReportChild = styled(ReportWrap)`
   `}
 `;
 
-export const Btn = styled.a`
+export const Link = styled.a`
   display: flex;
   align-items: center;
   padding-left: 24px;

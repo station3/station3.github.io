@@ -1,5 +1,8 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+
+import HelpLineFlow from './HelpLineFlow';
+
 import { Wrap, Label, Block } from './styled';
 
 function MideawillHelplineComponent() {
@@ -14,6 +17,7 @@ function MideawillHelplineComponent() {
             <p>헬프라인은 미디어윌그룹 임직원 뿐만 아니라 협력업체 누구나 이용할 수 있습니다.</p>
           </Block>
         </Fade>
+        <HelpLineFlow />
       </div>
     </Wrap>
   )

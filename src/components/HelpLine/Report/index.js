@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade'
 import {
   Wrap, Label, 
   BenefitList, Benefit, ReportWrap, ReportChild, 
-  Btn, QRCode } from './styled'
+  Link, QRCode } from './styled'
 
 const BenefitsComponent = () => {
   return (
@@ -47,8 +47,12 @@ const BenefitsComponent = () => {
           <Fade bottom cascade distance="60px">
             <ReportChild>
               <h2>PC로 접속하기</h2>
-              <Btn>부정/비리 행위 관련 익명신고 바로가기 </Btn>
-              <Btn>성희롱/성폭력/직장내 괴롭힘 관련 익명신고 바로가기</Btn>
+              <Link href="https://www.redwhistle.org/report/report.asp?organ=7973&RType=1" target="_blank" rel="noopener noreferrer">
+                부정/비리 행위 관련 익명신고 바로가기
+              </Link>
+              <Link href="https://www.redwhistle.org/report/report.asp?organ=7977&RType=1" target="_blank" rel="noopener noreferrer">
+                성희롱/성폭력/직장내 괴롭힘 관련 익명신고 바로가기
+              </Link>
             </ReportChild>
           </Fade>
           
