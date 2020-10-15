@@ -4,83 +4,209 @@ import media from 'utils/media'
 export const Footer = styled.div`
   width: 100%;
   background-color: #000;
-
-  ${media.desk1600`
-    height: 212px;
-    padding: 0 80px;
-  `}
-
-  ${media.desk1200`
-    height: 212px;
-    padding: 0 80px;
-  `}
-
-  ${media.tabletB`
-    height: 807px;
-    padding: 0 60px;
-    padding-top: 147px;
-  `}
-  
-  ${media.tablet`
-    height: 858px;
-    padding: 0 40px;
-    padding-top: 147px;
-  `}
-  
-  ${media.mobile`
-    height: 429px;
-    padding: 0 20px;
-    padding-top: 74px;
-  `}
-
-  ${media.mobileS`
-    height: 396px;
-    padding: 0 15px;
-    padding-top: 74px;
-  `}
 `
 
 export const Content = styled.div`
   max-width: 1600px;
   height: 100%;
   margin: 0 auto;
+  
+  ${media.desk1600`
+    padding: 60px 80px;
+  `}
+
+  ${media.desk1200`
+    padding: 60px 80px;
+  `}
+
+  ${media.tabletB`
+    padding: 147px 60px 150px;
+  `}
+  
+  ${media.tablet`
+    padding: 147px 40px 150px;
+  `}
+  
+  ${media.mobile`
+    padding: 75px 20px;
+  `}
+
+  ${media.mobileS`
+    padding: 75px 15px;
+  `}
+
 `
 
-export const Logo = styled.div`
-  position: relative;
+export const TermsWrap = styled.div`
+  width: 100%;
+  border-bottom: 1px solid rgb(41, 41, 41);
+
+  > ul {
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+
+    > li {
+      display: flex;
+      height: 100%;
+      
+      > a {
+        color: #8f8f8f;
+      }
+    }
+  }
+
 
   ${media.desk1600`
-    float: left;
-    width: 168px;
-    height: 100%;
+    height: 80px;
 
-    > svg {
-      width: 168px;
-      height: 23px;
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
+    > ul {
+      padding: 0 80px;
+      
+      > li {
+        align-items: center;
+
+        > a {
+          font-size: 14px;
+          line-height: 30px;
+        }
+      }
     }
   `}
 
   ${media.desk1200`
-    float: left;
-    width: 134px;
-    height: 100%;
+    height: 80px;
 
-    > svg {
-      width: 134px;
-      height: 18px;
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
+    > ul {
+      padding: 0 80px;
+
+      > li {
+        align-items: center;
+
+        > a {
+          font-size: 13px;
+          line-height: 26px;
+        }
+      }
     }
   `}
 
   ${media.tabletB`
-    width: 288px;
+    height: 140px;
+
+    > ul {
+      padding: 0 60px;
+
+      > li {
+        align-items: center;
+
+        > a {
+          font-size: 24px;
+          line-height: 50px;
+        }
+      }
+    }
+  `}
+  
+  ${media.tablet`
+    height: 120px;
+
+    > ul {
+      padding: 0 60px;
+      
+      > li {
+        align-items: center;
+
+        > a {
+          font-size: 24px;
+          line-height: 50px;
+        }
+      }
+    }
+  `}
+  
+  ${media.mobile`
+    height: 60px;
+
+    > ul {
+      padding: 0 20px;
+
+      > li {
+        align-items: center;
+
+        > a {
+          font-size: 12px;
+          line-height: 25px;
+        }
+      }
+    }
+  `}
+
+  ${media.mobileS`
+    height: 50px;
+
+    > ul {
+      padding: 0 15px;
+
+      > li {
+        align-items: center;
+
+        > a {
+          font-size: 11px;
+          line-height: 20px;
+        }
+      }
+    }
+  `}
+`;
+
+export const InfoWrap = styled.div`
+  display: flex;
+
+  ${media.desk1600`
+    align-items: center;
+  `}
+
+  ${media.desk1200`
+    align-items: center;
+  `}
+
+  ${media.tabletB`
+    flex-direction: column;
+  `}
+  
+  ${media.tablet`
+    flex-direction: column;
+  `}
+  
+  ${media.mobile`
+    flex-direction: column;
+  `}
+
+  ${media.mobileS`
+    flex-direction: column;
+  `}
+`;
+
+export const Logo = styled.div`
+  flex: none;
+  position: relative;
+
+  ${media.desk1600`
+    > svg {
+      width: 168px;
+      height: 23px;
+    }
+  `}
+
+  ${media.desk1200`
+    > svg {
+      width: 134px;
+      height: 18px;
+    }
+  `}
+
+  ${media.tabletB`
     margin-bottom: 57px;
 
     > svg {
@@ -90,7 +216,6 @@ export const Logo = styled.div`
   `}
   
   ${media.tablet`
-    width: 288px;
     margin-bottom: 57px;
 
     > svg {
@@ -100,7 +225,6 @@ export const Logo = styled.div`
   `}
   
   ${media.mobile`
-    width: 144px;
     margin-bottom: 29px;
 
     > svg {
@@ -110,7 +234,6 @@ export const Logo = styled.div`
   `}
 
   ${media.mobileS`
-    width: 144px;
     margin-bottom: 25px;
 
     > svg {
@@ -121,6 +244,8 @@ export const Logo = styled.div`
 `
 
 export const Contact = styled.div`
+  flex-grow: 1;
+
   > div {
     > p {
       color: #999;
@@ -137,15 +262,10 @@ export const Contact = styled.div`
   }
 
   ${media.desk1600`
-    float: left;
-    display: table;
     height: 100%;
     padding-left: 80px;
 
     > div {
-      display: table-cell;
-      vertical-align: middle;
-
       > p {
         font-size: 14px;
         line-height: 30px;
@@ -154,15 +274,10 @@ export const Contact = styled.div`
   `}
 
   ${media.desk1200`
-    float: left;
-    display: table;
     height: 100%;
     padding-left: 3%;
 
     > div {
-      display: table-cell;
-      vertical-align: middle;
-
       > p {
         font-size: 12px;
         line-height: 26px;
@@ -230,156 +345,90 @@ export const Contact = styled.div`
 `
 
 export const SNSWrap = styled.div`
+  flex: none;
 
   ${media.desk1600`
-    float: right;
-    display: table;
-    height: 100%;
-    padding-left: 80px;
+    display: flex;
+    align-items: center;
+ 
+    > a {
+      margin-left: 20px;
 
-    > ul {
-      display: table-cell;
-      vertical-align: middle;
-
-      > li {
-        float: left;
-        line-height: 53px;
-        
-        > a {
-          margin-left: 20px;
-
-          > svg {
-            width: 24px;
-            height: 24px;
-            position: relative;
-            top: 5px;
-          }
-        }
+      > svg {
+        width: 24px;
+        height: 24px;
       }
     }
   `}
 
   ${media.desk1200`
-    float: right;
-    display: table;
-    height: 100%;
+    display: flex;
+    align-items: center;
 
-    > ul {
-      display: table-cell;
-      vertical-align: middle;
+    > a {
+      margin-left: 16px;
 
-      > li {
-        float: left;
-        line-height: 42px;
-        &:nth-child(n + 2):not(:last-child) {
-          margin-left: 16px;
-        }
-        > a {
-          > svg {
-            width: 19px;
-            height: 19px;
-            position: relative;
-            top: 5px;
-          }
-        }
+      > svg {
+        width: 19px;
+        height: 19px;
       }
     }
   `}
 
   ${media.tabletB`
-    > ul {
-      > li {
-        float: left;
-        margin-bottom: 40px;
-        
-        > a {
-          margin-right: 32px;
+    margin-bottom: 40px;
+    
+    > a {
+      margin-right: 32px;
 
-          > svg {
-            width: 43px;
-            height: 43px;
-          }
-        }
-
-        &:last-child {
-          width: 100%;
-          clear: both;
-        }
+      > svg {
+        width: 43px;
+        height: 43px;
       }
     }
   `}
   
   ${media.tablet`
-    > ul {
-      > li {
-        float: left;
-        margin-bottom: 40px;
+    margin-bottom: 40px;
         
-        > a {
-          margin-right: 32px;
+    > a {
+      margin-right: 32px;
 
-          > svg {
-            width: 43px;
-            height: 43px;
-          }
-        }
-
-        &:last-child {
-          width: 100%;
-          clear: both;
-        }
+      > svg {
+        width: 43px;
+        height: 43px;
       }
     }
   `}
   
   ${media.mobile`
-    > ul {
-      > li {
-        float: left;
-        margin-bottom: 20px;
-        
-        > a {
-          margin-right: 16px;
+    margin-bottom: 20px;
+      
+    > a {
+      margin-right: 16px;
 
-          > svg {
-            width: 22px;
-            height: 22px;
-          }
-        }
-
-        &:last-child {
-          width: 100%;
-          clear: both;
-        }
+      > svg {
+        width: 22px;
+        height: 22px;
       }
     }
   `}
 
   ${media.mobileS`
-    > ul {
-      > li {
-        float: left;
-        margin-bottom: 20px;
-        
-        > a {
-          margin-right: 16px;
+    margin-bottom: 20px;
+    > a {
+      margin-right: 16px;
 
-          > svg {
-            width: 22px;
-            height: 22px;
-          }
-        }
-
-        &:last-child {
-          width: 100%;
-          clear: both;
-        }
+      > svg {
+        width: 22px;
+        height: 22px;
       }
     }
   `}
 `
 
 export const Select = styled.div`
+  flex: none;
   position: relative;
 
   ${media.desk1600`
