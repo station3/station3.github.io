@@ -1,6 +1,7 @@
 # Station3
 
 개발은 main-develop 브런치에서 작업후 master 로 배포한댜.
+> main-develop브런치에서 `yarn deploy`를 실행하면 자동으로 마스터에 배포된다.
 
 ## Install
 ```bash

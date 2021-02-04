@@ -42,15 +42,18 @@ export const TermsWrap = styled.div`
   border-bottom: 1px solid rgb(41, 41, 41);
 
   > ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     max-width: 1600px;
     height: 100%;
     margin: 0 auto;
 
     > li {
-      display: flex;
-      height: 100%;
-      
+      white-space: nowrap;
+
       > a {
+        display: block;
         color: #8f8f8f;
       }
     }
@@ -62,9 +65,10 @@ export const TermsWrap = styled.div`
 
     > ul {
       padding: 0 80px;
+      margin-left: -40px;
       
       > li {
-        align-items: center;
+        margin-left: 40px;
 
         > a {
           font-size: 14px;
@@ -79,9 +83,10 @@ export const TermsWrap = styled.div`
 
     > ul {
       padding: 0 80px;
+      margin-left: -40px;
 
       > li {
-        align-items: center;
+        margin-left: 40px;
 
         > a {
           font-size: 13px;
@@ -96,9 +101,10 @@ export const TermsWrap = styled.div`
 
     > ul {
       padding: 0 60px;
+      margin-left: -60px;
 
       > li {
-        align-items: center;
+        margin-left: 60px;
 
         > a {
           font-size: 24px;
@@ -112,14 +118,16 @@ export const TermsWrap = styled.div`
     height: 120px;
 
     > ul {
-      padding: 0 60px;
+      padding: 10px 60px;
+      margin-left: -40px;
       
       > li {
-        align-items: center;
+        margin-left: 40px;
+        height: 40px;
 
         > a {
           font-size: 24px;
-          line-height: 50px;
+          line-height: 40px;
         }
       }
     }
@@ -130,9 +138,10 @@ export const TermsWrap = styled.div`
 
     > ul {
       padding: 0 20px;
+      margin-left: -20px;
 
       > li {
-        align-items: center;
+        margin-left: 20px;
 
         > a {
           font-size: 12px;
@@ -147,9 +156,10 @@ export const TermsWrap = styled.div`
 
     > ul {
       padding: 0 15px;
+      margin-left: -20px;
 
       > li {
-        align-items: center;
+        margin-left: 20px;
 
         > a {
           font-size: 11px;

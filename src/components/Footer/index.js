@@ -25,6 +25,15 @@ const FooterComponent = ({
               영상정보처리기기 운영·관리 방침
             </a>
           </li>
+          <li>
+            <a
+              href="https://pro.dabangapp.com/terms/4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              개인정보처리방침
+            </a>
+          </li>
         </ul>
       </TermsWrap>
 
